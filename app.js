@@ -50,6 +50,6 @@ app.post("/delete", function(req, res){
     })
 })
 
-app.listen(3000, function(req, res){
+app.listen(3000 || process.env.PORT, function(req, res){
     console.log("Server running on port 3000.");
 })
