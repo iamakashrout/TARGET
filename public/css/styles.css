@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+nav{
+    display: flex;
+    position: sticky;
+    background-color: black;
+    color: white;
+    position: sticky;
+    width: 100%;
+}
+
+.logoPic{
+    width: 85%;
+}
+
+.logo{
+    height: 9vh;
+    width: 6vh;
+    margin-top: 1vh;
+    margin-bottom: 0.5vh;
+    margin-left: 4vh;
+    cursor: pointer;
+}
+
+.brand{
+    text-align: right;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 2vh;
+    margin-right: 4vh;
+    cursor: pointer;
+}
+
+.brand:hover{
+    font-size: 220%;
+    color: blueviolet;
+}
+
+.content{
+    display: flex;
+}
+
+.box{
+    width: 60%;
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 2%;
+}
+
+.mainPic{
+    margin-top: 4%;
+    width: 40%;
+    margin-left: 15%;
+}
+
+.photo{
+    height: 60vh;
+    width: 48vh;
+}
+
+.item{
+    display: flex;
+    margin-bottom: 1%;
+}
+
+.heading{
+    margin-left: 8%;
+    font-size: 300%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.list{
+    margin-left: 16%;
+    margin-top: 3%;
+    font-size: 150%;
+}
+
+.listItem{
+    margin-left: 2%;
+}
+
+.new{
+    margin-top: 4%;
+    height: 5vh;
+    width: 50%;
+    font-size: 100%;
+    text-align: center;
+    border-color: solid black;
+    border-radius: 100%;
+}
+
+.btn{
+    margin-top: 4%;
+    height: 5vh;
+    width: 4%;
+    margin-left: 2%;
+    border-radius: 20%;
+    background-color: blueviolet;
+    color: black;
+    font-size: 200%;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: black;
+    color: blueviolet;
+}
+
+footer{
+    padding-top: 1vh;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 120%;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.link:hover{
+    color: blueviolet;
+}
+
+@media (max-width: 1200px) {
+
+    .content{
+        display: block;
+    }
+
+    .photo{
+        height: 27vh;
+        width: 18vh;
+        display: block;
+        margin-left: 30%;
+    }
+
+    .box{
+        margin-top: 4%;
+        margin-left: 20%;
+    }
+
+    .list{
+        margin-top: 4%;
+        margin-left: 18%;
+    }
+
+    .new{
+        margin-left: 4%;
+        margin-top: 8%;
+        width: 80%;
+    }
+
+    .btn{
+        margin-top: 8%;
+        height: 5vh;
+        width: 16%;
+    }
+}
