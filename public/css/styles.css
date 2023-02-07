@@ -28,7 +28,6 @@ nav{
     margin-top: 1vh;
     margin-bottom: 0.5vh;
     margin-left: 4vh;
-    cursor: pointer;
 }
 
 .brand{
@@ -38,6 +37,8 @@ nav{
     margin-top: 2vh;
     margin-right: 4vh;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 .brand:hover{
